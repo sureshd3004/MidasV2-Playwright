@@ -1,0 +1,33 @@
+{
+  "name": "midas-v.3.0-automation-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "send-report": "node ./utils/mailUtils/sendReport.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mohamedmeerans@bitbucket.org/infoplus-mdm-dev/midas-v.3.0-automation-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/infoplus-mdm-dev/midas-v.3.0-automation-playwright/issues"
+  },
+  "homepage": "https://bitbucket.org/infoplus-mdm-dev/midas-v.3.0-automation-playwright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "allure-playwright": "^3.3.0",
+    "eslint": "^8.57.1"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.10.0",
+    "nodemailer": "^7.0.4",
+    "xlsx": "^0.18.5"
+  }
+}

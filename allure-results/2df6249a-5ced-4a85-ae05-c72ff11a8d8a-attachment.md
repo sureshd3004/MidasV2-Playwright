@@ -1,0 +1,151 @@
+# Page snapshot
+
+```yaml
+- alertdialog
+- navigation:
+  - img
+  - list:
+    - img
+    - text: Dashboard
+    - img
+    - text: Vendor Request
+    - img
+    - text: Translation
+    - img
+    - text: Configuration
+    - img
+    - text: SAP Upload
+- button:
+  - img
+- img
+- img
+- img
+- textbox "Search vendor..."
+- button "✕"
+- button:
+  - img
+- text: Notifications Centre
+- button "✖"
+- text: 🔔
+- paragraph: No messages Received
+- button "Close"
+- button "Open user menu"
+- checkbox "Show My Data"
+- text: Show My Data
+- heading "Locations" [level=3]
+- text: Location Total Marigold 8
+- heading "Vendor Type" [level=3]
+- heading "Vendor Products" [level=3]
+- table:
+  - rowgroup
+  - rowgroup:
+    - row "Automotive Parts 1":
+      - cell "Automotive Parts 1"
+    - row "Bearings 2":
+      - cell "Bearings 2"
+    - row "Building Supplies 2":
+      - cell "Building Supplies 2"
+    - row "Cement/Shotcrete 2":
+      - cell "Cement/Shotcrete 2"
+    - row "Chemicals 1":
+      - cell "Chemicals 1"
+- heading "Status" [level=3]
+- heading "Duplicates" [level=3]
+- heading "Vendor Service" [level=3]
+- table:
+  - rowgroup
+  - rowgroup:
+    - row "Arial Surveying/Photo 1":
+      - cell "Arial Surveying/Photo 1"
+    - row "Communications/IT 3":
+      - cell "Communications/IT 3"
+    - row "Construction 3":
+      - cell "Construction 3"
+    - row "Electrical 3":
+      - cell "Electrical 3"
+    - row "Engineering 2":
+      - cell "Engineering 2"
+    - row "Exploration 2":
+      - cell "Exploration 2"
+    - row "Heavy Equipment Maintenance 1":
+      - cell "Heavy Equipment Maintenance 1"
+    - row "Labourers 1":
+      - cell "Labourers 1"
+    - row "Marketing 1":
+      - cell "Marketing 1"
+    - row "Medical Aid 1":
+      - cell "Medical Aid 1"
+    - row "Millwright 1":
+      - cell "Millwright 1"
+    - row "Mining Labour 1":
+      - cell "Mining Labour 1"
+    - row "Office/Professional Support 1":
+      - cell "Office/Professional Support 1"
+    - row "Piping 1":
+      - cell "Piping 1"
+    - row "Recruitment 1":
+      - cell "Recruitment 1"
+    - row "Security 1":
+      - cell "Security 1"
+    - row "Training 1":
+      - cell "Training 1"
+    - row "Transportation 1":
+      - cell "Transportation 1"
+- heading "Map" [level=3]
+- button "Zoom in"
+- button "Zoom out"
+- heading "Vendor Details" [level=3]
+- button "Export":
+  - img
+  - text: Export
+- table:
+  - rowgroup:
+    - 'row "S.No Request # Show Filter Menu Request Type Show Filter Menu Location Show Filter Menu Vendor Code Show Filter Menu Vendor Name Show Filter Menu Created User Show Filter Menu Created date Status Action"':
+      - cell "S.No"
+      - 'columnheader "Request # Show Filter Menu"':
+        - text: "Request #"
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Request Type Show Filter Menu":
+        - text: Request Type
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Location Show Filter Menu":
+        - text: Location
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Vendor Code Show Filter Menu":
+        - text: Vendor Code
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Vendor Name Show Filter Menu":
+        - text: Vendor Name
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Created User Show Filter Menu":
+        - text: Created User
+        - img
+        - button "Show Filter Menu":
+          - img
+      - columnheader "Created date":
+        - text: Created date
+        - img
+      - columnheader "Status":
+        - text: Status
+        - img
+      - cell "Action"
+  - rowgroup
+- text: Showing 0 to 0 of 0
+- button "First Page" [disabled]
+- button "Previous Page" [disabled]
+- button "Next Page" [disabled]
+- button "Last Page" [disabled]
+- combobox "Rows per page" [disabled]: "10"
+- button "dropdown trigger"
+- text: Midas Copyrights @2025 version - 0.0.1 version - 0.0.1
+```
