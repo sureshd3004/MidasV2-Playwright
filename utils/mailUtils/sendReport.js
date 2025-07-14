@@ -1,6 +1,3 @@
-// import nodemailer from 'nodemailer';
-// import fs from 'fs';
-
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
@@ -33,12 +30,12 @@ async function sendReportEmail() {
   await zipReportFolder(reportDir, zipPath);
 // SMTP configuration
 const transporter = nodemailer.createTransport({
-  host: 'smtp.ionos.co.uk', 
+  host: 'your Host', 
   port: 587,              
   secure: false,          
   auth: {
     user: 'suresh.d@infoplusmdm.com',  
-    pass: '!tpL@MDM$25'      
+    pass: 'your_Password'      
   },
   tls: {
     rejectUnauthorized: false 
